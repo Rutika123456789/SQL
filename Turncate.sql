@@ -10,7 +10,10 @@
     SELECT First_name, Last_name From the employees;
 
 
---------------- 3 Write a query to retrieve Rose with dates with in specific range 
+--------------- 3 Write a query to retrieve Rows with dates with in specific range 
+    SELECT Column_name FROM Table_name
+    WHERE column_column BETWEEN '2023-01-01' AND '2023-12-31';
+
 
 
 
