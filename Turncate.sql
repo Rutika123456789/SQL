@@ -17,12 +17,17 @@
 
 
 
-To combine the result state of two or more select statement 
+--------------- 4 To combine the result state of two or more select statement 
+    SELECT * FROM TABLE
+    UNION
+    SELECT  Column_name FROM TABLE;
 
 
-
-
-
-
-Creative table employees with fields like empld empage  empaddress 
-empsalary
+--------------- 5 Creative table employees with fields like empld empage  empaddress empsalary
+    CREATE  TABLE employees(
+        empId INT ,
+        empName VARCHAR(50),
+        empAge INT,
+        empAddress VARCHAR(100),
+        empSalary INT
+    );
