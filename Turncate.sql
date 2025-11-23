@@ -30,4 +30,5 @@
         empAge INT,
         empAddress VARCHAR(100),
         empSalary INT
+        
     );
