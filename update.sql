@@ -1,0 +1,1 @@
+UPDATE students SET age =22 WHERE  id = 2
