@@ -29,6 +29,7 @@
         empName VARCHAR(50),
         empAge INT,
         empAddress VARCHAR(100),
+        
         empSalary INT
         
         
