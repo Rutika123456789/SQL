@@ -1,3 +1,5 @@
+
+
 SELECT students.name, departments.dept_name
 FROM students
 FULL OUTER JOIN departments
