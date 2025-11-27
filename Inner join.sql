@@ -1,4 +1,6 @@
 --INNER JOIN
+
+
 SELECT students.name, marks.subject 
 FROM students
 INNER JOIN marks 
